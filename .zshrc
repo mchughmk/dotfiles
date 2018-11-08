@@ -60,6 +60,7 @@ ZSH_CUSTOM=$HOME/.zsh_custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   docker,
+  docker-compose,
   git,
   npm,
   python
