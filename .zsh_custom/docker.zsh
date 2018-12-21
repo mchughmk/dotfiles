@@ -1,3 +1,3 @@
 alias dc="docker-compose"
 
-export DOCKER_HOST=tcp://0.0.0.0:2375
+# export DOCKER_HOST=tcp://0.0.0.0:2375

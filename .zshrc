@@ -58,13 +58,7 @@ ZSH_CUSTOM=$HOME/.zsh_custom
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  docker,
-  docker-compose,
-  git,
-  npm,
-  python
-)
+plugins=(docker docker-compose git npm python)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,5 +93,6 @@ export SSH_KEY_PATH="~/.ssh/rsa_id"
 alias ll="ls -laF"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-export VISUAL=vim
+export VISUAL=vi
 export EDITOR="$VISUAL"
+
