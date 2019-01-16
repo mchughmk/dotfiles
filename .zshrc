@@ -95,4 +95,5 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 export VISUAL=vi
 export EDITOR="$VISUAL"
+export DISPLAY=127.0.0.1:0.0
 
